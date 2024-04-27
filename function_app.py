@@ -86,11 +86,11 @@ def tasks(req: func.HttpRequest) -> func.HttpResponse:
     if name:
         return func.HttpResponse(f"Hello, {name}. This HTTP triggered function executed successfully.")
     else:
-        result = tasks_chain.invoke(
+        output = tasks_chain.invoke(
             {
                 "name": "Alan",
                 "age": 8,
-                "reading_level": 2,
+                "reading_level": 5,
                 "teaching_task": "How to deal with strong smells"
             }
         )
