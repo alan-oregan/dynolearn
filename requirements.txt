@@ -2,3 +2,10 @@ python-dotenv
 langchain
 huggingface_hub
 py-readability-metrics
+google-search-results
+langchainhub
+transformers
+torch
+accelerate
+sentencepiece
+datasets
