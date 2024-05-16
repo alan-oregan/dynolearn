@@ -9,3 +9,6 @@ torch
 accelerate
 sentencepiece
 datasets
+pandas
+numpy
+matplotlib
